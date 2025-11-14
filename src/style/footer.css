@@ -1,0 +1,12 @@
+.line {
+    width: 90%;
+    margin: 0px auto;
+    background-color: white;
+    height: 2px;
+}
+
+.para {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 18px;
+}

@@ -1,0 +1,71 @@
+#about {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+    padding: 12px 10px;
+}
+
+.section-1 {
+    width: 80%;
+    margin-top: 20px;
+    padding: 20px 0px;
+    display: flex;
+    text-align: justify;
+    justify-content: space-evenly;
+    gap: 70px;
+}
+
+.section-1 img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.intro p {
+    font-size: 18px;
+}
+
+.all-skills {
+    margin-top: 80px;
+    align-items: center;
+}
+
+.skills p {
+    font-size: 18px;
+    font-weight: 600;
+    min-width: 120px;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 40px;
+    white-space: nowrap;
+    transition: .2s ease;
+}
+.skills:hover{
+    transform: translateX(-15px);
+}
+
+.skills div {
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 136.28%);
+    width: 100px;
+    height: 5px;
+    border-radius: 10px;
+}
+.skills:nth-of-type(1) div:empty{
+    width: 90%;
+}
+.skills:nth-of-type(2) div:empty{
+    width: 40%;
+}
+.skills:nth-of-type(3) div:empty{
+    width: 60%;
+}
+.skills:nth-of-type(4) div:empty{
+    width: 50%;
+}
+.skills:nth-of-type(5) div:empty{
+    width: 70%;
+}
