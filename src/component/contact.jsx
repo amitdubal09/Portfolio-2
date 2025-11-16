@@ -8,7 +8,7 @@ function Contact() {
       </div>
       <div className="c-main">
         <div className="main-1">
-          <span>Lets'talk</span>
+          <span className='color'>Lets'talk</span>
           <p className="opentowork">
             With a strong foundation in HTML, CSS, JavaScript, PHP, MySQL, and ReactJS, I enjoy turning ideas into clean, responsive, and user-friendly interfaces. I am enthusiastic about learning, improving, and taking on meaningful projects. I am currently open to work and actively seeking opportunities where I can contribute my skills and grow as a frontend developer.
           </p>

@@ -1,3 +1,6 @@
+#contact{
+    margin-top: 50px;
+}
 #heading {
     font-size: 50px;
     font-weight: bold;
@@ -11,7 +14,7 @@
     margin-bottom: 30px;
 }
 
-.main-1 span {
+.color {
     margin-top: 15px;
     font-size: 40px;
     font-weight: 600;

@@ -1,0 +1,15 @@
+#project {
+    margin-top: 20px;
+}
+
+.project-container {
+    display: grid;
+    margin-left: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-container img {
+    max-width: 450px;border-radius: 15px;
+    aspect-ratio: 16/9;
+    margin-top: 20px;
+}

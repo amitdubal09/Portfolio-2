@@ -11,7 +11,7 @@ const Hero = () => {
           <p>I am a fresher web developer skilled in HTML, CSS, JavaScript, MySQL, PHP, and ReactJS. I enjoy building responsive websites and am eager to learn and grow in real projects.</p>
           <div className="buttons">
             <div className="first"><a href="#contact">Connect With Me</a></div>
-            <div className="second"><a href="">My Resume</a></div>
+            <div className="second"><a href="https://drive.google.com/file/d/1bkmRwoRQ1bRUIYtKoVy28t1gflm9wpjl/view?usp=drive_link" target='_blank'>My Resume</a></div>
           </div>
         </div>
       </div>
