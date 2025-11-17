@@ -21,14 +21,6 @@ function Contact() {
                 </a>
               </div>
 
-
-              <div className="icon">
-                <a href="tel:+918879325268" target='_blank' className="icon-link">
-                  <img src="./contact.svg" alt="contact" />
-                  <p>+91 8879325268</p>
-                </a>
-              </div>
-
               <div className="icon">
                 <a href="#" className="icon-link">
                   <img src="./location.png" alt="location" />
