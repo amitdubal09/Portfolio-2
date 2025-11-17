@@ -1,3 +1,6 @@
+#service{
+    text-align: center;
+}
 .box {
     border: 2px solid rgb(255, 255, 255);
     border-radius: 20px;
@@ -21,9 +24,11 @@
     font-size: 18px;
     margin-bottom: 30px;
 }
-.anchor-div{
+
+.anchor-div {
     margin-bottom: 30px;
 }
+
 .anchor-div a {
     font-size: 18px;
     color: white;
@@ -39,22 +44,36 @@
     transform: scale(1.03);
     border-color: rgb(255, 0, 208);
 }
+#service{
+    margin-top: 20px;
+}
+
 @media screen and (max-width:1024px) {
-    .box{
+    .box {
         width: 30%;
     }
 }
-@media screen and (max-width:768px){
-    .box{
+
+@media screen and (max-width:768px) {
+    .box {
         width: 40%;
     }
 }
-@media screen and (max-width:425px){
-    #heading{
-        margin-left: 30%;
-        font-size: 45px;font-weight: bold;
+
+@media screen and (max-width:425px) {
+    #heading {
+        font-size: 45px;
+        font-weight: bold;
     }
-    .box{
+    .colors{
+        margin: 10px 0px;
+        font-size: 20px;
+    }
+    #tagline, span{
+        font-size: 13px;
+    }
+
+    .box {
         width: 70%;
     }
 }

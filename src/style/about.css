@@ -1,9 +1,8 @@
 #about {
     font-size: 50px;
     font-weight: bold;
-    text-align: center;
-    margin-top: 70px;
     padding: 12px 10px;
+    text-align: center;
 }
 
 .section-1 {
@@ -87,24 +86,49 @@
         margin-top: 60px;
     }
 }
-@media screen and (max-width:768px){
-    .section-1{
+
+@media screen and (max-width:768px) {
+    .section-1 {
         margin: 0px;
     }
+
     .section-1 img,
-    .all-skills{
+    .all-skills {
         display: none;
     }
-    .sub-section-1{
+
+    .sub-section-1 {
         margin-left: 20px;
     }
-    .intro{
+
+    .intro {
         text-align: justify;
         display: contents;
     }
+
+    #about span {
+        font-size: 25px;
+        margin-left: 15px;
+    }
+
+    .intro p {
+        font-size: 13px;
+        line-height: 25px;
+    }
 }
-@media screen and (max-width:320px){
-    .intro p{
-        font-size: 15px;
+
+@media screen and (max-width:425px) {
+    #about span {
+        font-size: 25px;
+    }
+
+    .section-1 {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .intro p {
+        font-size: 13px;
     }
 }

@@ -49,7 +49,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 50px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .buttons a {
@@ -62,17 +62,6 @@ body {
     border-radius: 50px;
     background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
     cursor: pointer;
-}
-
-.second {
-    padding: 20px 55px;
-    border-radius: 50px;
-    border: 2px solid #FFF;
-    cursor: pointer;
-}
-
-.second:hover {
-    border: 2px solid #DF8908;
 }
 
 @media screen and (max-width:1024px) {
@@ -104,12 +93,14 @@ body {
         margin: 0px;
     }
 
-    .first {
-        padding: 20px 25px;
+    .first,
+    .second {
+        padding: 10px 15px;
     }
 
     .second {
-        padding: 20px 45px;
+        border: 2px solid white;
+        border-radius: 50px;
     }
 }
 
@@ -118,38 +109,32 @@ body {
         display: initial;
     }
 
-    .second {
-        padding: 20px 25px;
+    .buttons a {
+        font-size: 13px;
     }
 
-    .first {
-        padding: 20px 10px;
+    .name .color {
+        font-size: 26px;
+        font-weight: bold;
+    }
+    .buttons{
+        gap: 25px;
+    }
+    .color span{
+        font-size: 18px;
     }
 }
 
 @media screen and (max-width:320px) {
-    .image img{
+    .image img {
         width: 250px;
     }
-    .name .color{
-        font-size: 35px;
+
+    .name .color {
+        font-size: 25px;
     }
-    .name p{
+
+    .name p {
         font-size: 13px;
-    }
-    .first,
-    .second {
-        padding: 8px 12px;
-        margin-right: 5px;
-    }
-
-    .first a,
-    .second a {
-        font-size: 12px;
-    }
-
-    .first,
-    .second {
-        white-space: nowrap;
     }
 }
