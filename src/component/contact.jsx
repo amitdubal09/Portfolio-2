@@ -16,7 +16,7 @@ function Contact() {
             <div className="sub-icon">
               <div className="icon">
                 <a href="mailto:amitdubal2005@gmail.com" className="icon-link">
-                  <img src="/gmail.png" alt="gmail" />
+                  <img src="./gmail.png" alt="gmail" />
                   <p>amitdubal2005@gmail.com</p>
                 </a>
               </div>
@@ -24,20 +24,20 @@ function Contact() {
 
               <div className="icon">
                 <a href="tel:+918879325268" target='_blank' className="icon-link">
-                  <img src="../public/contact.svg" alt="contact" />
+                  <img src="./contact.svg" alt="contact" />
                   <p>+91 8879325268</p>
                 </a>
               </div>
 
               <div className="icon">
                 <a href="#" className="icon-link">
-                  <img src="../public/location.png" alt="location" />
+                  <img src="./location.png" alt="location" />
                   <p>Navi Mumbai, India, 410 218</p>
                 </a>
               </div>
               <div className="icon">
                 <a href="https://linkedin.com/in/amitdubal" target='_blank' className="icon-link">
-                  <img src="../public/linkedin.png" alt="linkedin" />
+                  <img src="./linkedin.png" alt="linkedin" />
                   <p>Amit Dubal</p>
                 </a>
               </div>
@@ -46,21 +46,21 @@ function Contact() {
 
               <div className="icon">
                 <a href="https://github.com/amitdubal09" target='_blank' className="icon-link">
-                  <img src="../public/github.png" alt="github" />
+                  <img src="./github.png" alt="github" />
                   <p>amitdubal_09</p>
                 </a>
               </div>
 
               <div className="icon">
                 <a href="https://instagram.com/amit_dubal_96k" target='_blank' className="icon-link">
-                  <img src="../public/instagram.png" alt="instagram" />
+                  <img src="./instagram.png" alt="instagram" />
                   <p>amit_dubal_96k</p>
                 </a>
               </div>
 
               <div className="icon">
                 <a href="https://wa.me/918879325268" target='_blank' className="icon-link">
-                  <img src="../public/whatsapp.png" alt="whatsapp" />
+                  <img src="./whatsapp.png" alt="whatsapp" />
                   <p>+91 8879325268</p>
                 </a>
               </div>

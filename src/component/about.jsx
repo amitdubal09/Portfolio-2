@@ -6,7 +6,7 @@ const About = () => {
             <div id="about"><span>About me</span></div>
             <div className="main-about">
                 <div className="section-1">
-                    <img src="../public/amit.jpeg" alt="photo" />
+                    <img src="./amit.jpeg" alt="photo" />
                     <div className="sub-section-1">
                         <div className="intro">
                             <p>I am a passionate and dedicated Frontend Developer with strong skills in HTML, CSS, JavaScript, PHP, MySQL, and ReactJS. I enjoy creating clean, responsive, and user-friendly interfaces that provide smooth and engaging user experiences. With a solid foundation in modern web technologies, I constantly explore new ways to improve my craft and stay updated with the latest trends in frontend development.</p>

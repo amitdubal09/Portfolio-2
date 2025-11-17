@@ -16,7 +16,7 @@ const Header = () => {
         </ul>
       </div>
       <div className="menu-btn" onClick={() => {setOpen(!open)}}>
-        <img src="../public/menu.png" alt="menu" />
+        <img src="./menu.png" alt="menu" />
       </div>
       <div className={`menu ${open ? "open" : ""}`}>
         <ul>
