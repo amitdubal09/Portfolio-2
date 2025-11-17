@@ -1,11 +1,5 @@
-#contact{
+#contact {
     margin-top: 50px;
-}
-#heading {
-    font-size: 50px;
-    font-weight: bold;
-    margin-left: 40%;
-    margin-top: 70px;
 }
 
 .c-main {
@@ -23,32 +17,61 @@
     color: transparent;
 }
 
-.opentowork{
-    margin-top: 30px;font-size: 18px;line-height: 32px;
+.opentowork {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 32px;
 }
 
 .icons {
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
-}
-
-.icon img {
-    width: 60px;
+    margin-top: 50px;
 }
 
 .icon {
-    margin-top: 50px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+.icon img{
+    width: 40px;
+}
+
+.icon-link {
     display: flex;
     align-items: center;
-}
-
-.icon p {
-    margin-left: 30px;
-    font-size: 18px;
-}
-
-.icon a {
-    color: white;
+    gap: 20px;
     text-decoration: none;
+    color: inherit;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+
+.icon-link:hover {
+    transform: scale(1.03);
+    border: 2px solid pink;
+    border-radius: 15px;
+    background: linear-gradient(264deg, #3b2a18 0%, #4a1d1d 100%);
+}
+@media screen and (max-width:425px){
+    .icons{
+        display: initial;
+    }
+    .color{
+        font-size: 35px;
+    }
+    .c-main{
+        width: 90%;text-align: justify;
+    }
+    .opentowork{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:321px){
+    .opentowork{
+        font-size: 15px;line-height: 25px;
+    }
 }
