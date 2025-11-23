@@ -1,4 +1,5 @@
 import '../style/hero.css';
+import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   return (
@@ -6,8 +7,14 @@ const Hero = () => {
       <div className="main">
         <div className='image'>
           <img src="./amitimg.jpeg" alt="photo" />
-        </div><div className="name">
-          <h1 className='color'>I'm Amit Dubal,<br></br> <span> Web Developer Based in India.</span></h1>
+        </div>
+        <div className="name">
+          <Typewriter className="typewriter"
+            options={{
+              strings: ["I'm Amit Dubal"], autoStart: true, loop: true, delay: 100,
+            }}
+          />
+          <span> Web Developer Based in India.</span>
           <p>I am a fresher web developer skilled in HTML, CSS, JavaScript, MySQL, PHP, and ReactJS. I enjoy building responsive websites and am eager to learn and grow in real projects.</p>
           <div className="buttons">
             <div><a className="first click" href="#contact">Connect With Me</a></div>

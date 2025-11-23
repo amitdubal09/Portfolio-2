@@ -34,8 +34,7 @@ function Contact() {
                 </a>
               </div>
             </div>
-            <div className="sub-icon">
-
+            <div className="sub-icons">
               <div className="icon">
                 <a href="https://github.com/amitdubal09" target='_blank' className="icon-link">
                   <img src="./github.png" alt="github" />

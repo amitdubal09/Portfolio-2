@@ -58,19 +58,23 @@
     border-radius: 15px;
     background: linear-gradient(264deg, #3b2a18 0%, #4a1d1d 100%);
 }
-@media screen and (max-width:768px){
-    .opentowork{
+
+@media screen and (max-width:768px) {
+    .opentowork {
         font-size: 13px;
     }
 }
+
 @media screen and (max-width:425px) {
     .icons {
         display: initial;
     }
-    .icon-link p{
+
+    .icon-link p {
         font-size: 15px;
     }
-    .icon img{
+
+    .icon img {
         width: 30px;
     }
 
@@ -95,10 +99,12 @@
         font-size: 13px;
         line-height: 25px;
     }
-    .icon-link p{
+
+    .icon-link p {
         font-size: 13px;
     }
-    .icon img{
+
+    .icon img {
         width: 25px;
     }
 }
