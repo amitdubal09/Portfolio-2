@@ -10,8 +10,21 @@
     margin: 20px 0px;
     font-size: 18px;
 }
-@media screen and (max-width:320px){
-    .para{
+
+@media screen and (max-width:768px) {
+    .para {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .para {
         font-size: 10px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .para {
+        font-size: 13px;
     }
 }
