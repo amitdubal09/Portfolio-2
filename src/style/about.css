@@ -42,11 +42,6 @@
     margin-top: 10px;
     gap: 40px;
     white-space: nowrap;
-    transition: .2s ease;
-}
-
-.skills:hover {
-    transform: translateX(-15px);
 }
 
 .skills div {
