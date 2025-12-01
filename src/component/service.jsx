@@ -12,7 +12,7 @@ const Service = () => {
                     target="_blank">
                     <div className="box">
                         <p className='colors'>Web Design</p>
-                        <p id='tagline'>Web development is the process of building, programming...</p>
+                        <p id='tagline'>Turning imagination into functional websites.</p>
                         <span>Read More...</span>
                     </div>
                 </a>
