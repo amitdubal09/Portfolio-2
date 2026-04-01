@@ -28,7 +28,7 @@ function Contact() {
                 </a>
               </div>
               <div className="icon">
-                <a href="https://linkedin.com/in/amitdubal" target='_blank' className="icon-link">
+                <a href="www.linkedin.com/in/amit-dubal-6860b7298" target='_blank' className="icon-link">
                   <img src="./linkedin.png" alt="linkedin" />
                   <p>Amit Dubal</p>
                 </a>
